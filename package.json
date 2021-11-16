@@ -1,0 +1,19 @@
+{
+  "name": "mern-amazona-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.0.13"
+  }
+}
